@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>記事のタイトル | 生しょうが's blog</title>
+    <style>
+        /* 1. 全体のトーン（メインページと統一） */
+        body {
+            margin: 0; padding: 0;
+            font-family: serif;
+            line-height: 1.8;
+            color: #1a1a1a;
+            background-color: #fcfcfc;
+        }
+
+        /* 2. 固定ヘッダー（トップへ戻るボタン） */
+        header {
+            position: fixed; top: 0; left: 0; width: 100%;
+            background: #000; padding: 15px 0;
+            text-align: center; z-index: 1000;
+        }
+        header a {
+            color: #fff; text-decoration: none;
+            font-weight: bold; letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        /* 3. 記事本文エリア */
+        main {
+            max-width: 680px; /* 集中して読める幅 */
+            margin: 100px auto 80px;
+            padding: 0 25px;
+        }
+
+        /* 4. 記事のタイトルまわり */
+        .post-header { margin-bottom: 40px; }
+        .post-date { font-size: 0.9rem; color: #888; }
+        h1 { font-size: 1.8rem; margin: 10px 0; line-height: 1.3; }
+        .tag { font-size: 0.8rem; background: #eee; padding: 2px 8px; border-radius: 3px; }
+
+        /* 5. 本文内の装飾（シンプルに） */
+        p { margin-bottom: 1.5em; }
+        h2 { 
+            font-size: 1.4rem; border-left: 4px solid #000; 
+            padding-left: 15px; margin-top: 50px; 
+        }
+        blockquote { 
+            border-left: 2px solid #ccc; color: #666; 
+            margin: 20px 0; padding-left: 20px; font-style: italic;
+        }
+        img { max-width: 100%; height: auto; margin: 20px 0; border: 1px solid #eee; }
+
+        /* 6. 記事下のナビ */
+        footer {
+            border-top: 1px solid #eee;
+            padding-top: 30px;
+            text-align: center;
+        }
+        .back-to-top { text-decoration: none; color: #888; font-size: 0.9rem; }
+        .back-to-top:hover { color: #000; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="../index.html">生しょうが's blog</a>
+    </header>
+
+    <main>
+        <article>
+            <div class="post-header">
+                <span class="post-date">2026.02.28</span>
+                <span class="tag">Thought</span> <h1>ここに記事のタイトルを書く</h1>
+            </div>
+
+            <section class="post-content">
+                <p>ここから本文を書き始めます。中3の今しか書けない感性や、好きなボカロ曲の歌詞の解釈、工業製品の機能美について、自由に綴ってください。</p>
+
+                <h2>見出しが必要なときはこれ</h2>
+                <p>このように見出しを入れると、長い文章でも読みやすくなります。dark-brain.comのような雰囲気を目指すなら、あえて改行を多めに取って、余白を楽しむのがコツです。</p>
+
+                <blockquote>
+                    これは引用です。ボカロの歌詞などを紹介するときに使うとかっこいいです。
+                </blockquote>
+
+                <p>最後に、まとめや自分の考えを書いて締めくくります。</p>
+            </section>
+
+            <footer>
+                <a href="../index.html" class="back-to-top">← Back to Archive</a>
+            </footer>
+        </article>
+    </main>
+
+</body>
+</html>
