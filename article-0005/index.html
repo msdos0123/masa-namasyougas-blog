@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>記事のタイトル | 生しょうが's blog</title>
+    <style>
+        /* 1. 全体のトーン（メインページと統一） */
+        body {
+            margin: 0; padding: 0;
+            font-family: serif;
+            line-height: 1.8;
+            color: #1a1a1a;
+            background-color: #fcfcfc;
+        }
+
+        /* 2. 固定ヘッダー（トップへ戻るボタン） */
+        header {
+            position: fixed; top: 0; left: 0; width: 100%;
+            background: #000; padding: 15px 0;
+            text-align: center; z-index: 1000;
+        }
+        header a {
+            color: #fff; text-decoration: none;
+            font-weight: bold; letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        /* 3. 記事本文エリア */
+        main {
+            max-width: 680px; /* 集中して読める幅 */
+            margin: 100px auto 80px;
+            padding: 0 25px;
+        }
+
+        /* 4. 記事のタイトルまわり */
+        .post-header { margin-bottom: 40px; }
+        .post-date { font-size: 0.9rem; color: #888; }
+        h1 { font-size: 1.8rem; margin: 10px 0; line-height: 1.3; }
+        .tag { font-size: 0.8rem; background: #eee; padding: 2px 8px; border-radius: 3px; }
+
+        /* 5. 本文内の装飾（シンプルに） */
+        p { margin-bottom: 1.5em; }
+        h2 { 
+            font-size: 1.4rem; border-left: 4px solid #000; 
+            padding-left: 15px; margin-top: 50px; 
+        }
+        blockquote { 
+            border-left: 2px solid #ccc; color: #666; 
+            margin: 20px 0; padding-left: 20px; font-style: italic;
+        }
+        img { max-width: 100%; height: auto; margin: 20px 0; border: 1px solid #eee; }
+
+        /* 6. 記事下のナビ */
+        footer {
+            border-top: 1px solid #eee;
+            padding-top: 30px;
+            text-align: center;
+        }
+        .back-to-top { text-decoration: none; color: #888; font-size: 0.9rem; }
+        .back-to-top:hover { color: #000; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="../index.html">生しょうが's blog</a>
+    </header>
+
+    <main>
+        <article>
+            <div class="post-header">
+                <span class="post-date">2026.03.02</span>
+                <span class="tag">My Life</span> <h1>ストレス診断はムダ</h1>
+            </div>
+
+            <section class="post-content">
+                <p>自分はストレス診断はムダだと思う。</p>
+
+                <h2>なぜそのように考えるか</h2>
+                <p>ストレス診断は意味がない。<br>自分で選択する形式だと自分はこんな症状なんてないと主観で思い込んで症状があったとしても自覚はないのであてはまらないにチェックを入れてしまうからだ。<br>実際にはあるのに自分では気づいていない症状にチェックいれれないからだ。<br>それに嘘をついてストレス度を故意的にいじることだってできる。<br>こんなんでは結局本当のストレス度を知ることができない。</p>
+<h2>じゃあどうすれば本当のストレス度を知れるか</h3>
+<p>そんなの自分にはわからない。こんな周囲の環境によってガイジにされたバカにわかるわけない。<br>なのでGemini君を頼ろう。</p>
+<blockquote>「本当のストレス」は、脳の主観的な感じ方と、体の客観的な反応の「ズレ」に隠れています。<br>自覚症状がなくても、数値や生理現象として現れるストレス度を詳しく知るための4つのステップを解説します。<br>
+<br>1. 生理的指標（体）を数値化する<br>
+意志でコントロールできない自律神経やホルモンの動きを測定します。<br>これが最も「嘘をつけない」データです。
+心拍変動（HRV）解析:
+心臓の鼓動は一定ではなく、吸気で速まり、呼気でゆっくりになる「ゆらぎ」があります。<br>このゆらぎが大きいほど副交感神経が働き、リラックスできています。<br>
+Ga〇〇inやAp〇〇e Watch: 24時間モニタリングし、Ga〇〇inのストレスレベル機能では0〜100で数値化します。<br>
+TAS9（タスナイン）: 梅田メンタルクリニックなどの医療機関に導入されている専門機器で、指先から自律神経のバランスや血管老化度を数分で精密測定できます。<br>
+唾液中コルチゾール測定:
+ストレスに対抗するために副腎から分泌される「コルチゾール」を測ります。<br>
+郵送検査キット: WellMillなど、自宅で採取した唾液をラボに送り、科学的に数値を出す方法です。<br>慢性的な疲れが取れない「副腎疲労」の兆候もわかります。<br>
+<br>2. 心理的指標（心）を多角的に分析する<br>
+単純な「疲れた」という感想を、専門的な尺度で分解します。<br>
+POMS 2（気分の状態検査）:
+一時的な感情だけでなく、「活気」「疲労」「怒り」「混乱」など6つの因子を同時に測定します。<br>スポーツ選手のコンディション管理にも使われる客観性の高い検査です。<br>
+職業性ストレス簡易調査票（57項目・80項目）:
+厚生労働省が推奨する方式で、「仕事の負担」だけでなく「周囲のサポート」や「満足度」を含めて算出します。<br>自分の不調の原因が「量」なのか「人間関係」なのかを可視化できます。 <br> <br>
+3. 脳の活動を直接見る<br>
+脳波を測定し、リラックス状態（α波）と緊張状態（β波）のバランスを確認します。 <br>
+簡易脳波計: デジタルメディックなどが開発するポータブルデバイスを使い、精神的負荷がかかっている時の脳の疲労度を測定する手法です。<br>
+自費診療の脳波検査: 神戸きしだクリニックなど一部のクリニックでは、脳波検査（約15,000円〜）を通じて、自律神経や脳の覚醒状態を詳細に分析可能です。<br> <br>
+4. 血液検査の結果を「深読み」する<br>
+一般的な健康診断の項目からストレスを推測することも可能です。<br>
+白血球の分画（バランス）: ストレスが強いと交感神経が優位になり、顆粒球が増え、リンパ球が減る傾向があります。<br>
+血糖値とコレステロール: コルチゾールは血糖値を上げる働きがあるため、食生活に心当たりがないのに数値が高い場合、慢性的なストレスを疑います。</blockquote> 
+<p>ということみたいだ。こんなバカガイジには長文過ぎてわからない。<br>とりあえず体の数値化と心の多角的分析と脳の活動を直接見ることと血液検査の結果を深読みすることが重要みたいだ。<br>脳の活動を直接見るためには脳波検査などで金がかかるみたいだ。<br>そんな金あったら推しかフライトシムのアドオンに突っ込むから脳波検査などしたことがないが、本当に正しい自分のストレス度を知るにはした方がいいみたいだ。<br>こんな底辺のブログ見ている人はいるか知らないが、見ている人で本当のストレス度を知りたい方がいれば、このGeminiのまとめを実践した方がいいと思う。
+            </section>
+
+
+        </article>
+               <footer>
+                <a href="../index.html" class="back-to-top">← Go back to Archive</a>
+                <p style="margin-top: 40px; font-size: 0.8rem; color: #888;">
+                    Copyright &copy; 2026 生しょうが's blog
+                </p>
+                </footer>
+    </main>
+
+</body>
+</html>
