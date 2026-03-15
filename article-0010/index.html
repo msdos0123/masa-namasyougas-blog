@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>記事のタイトル | 生しょうが's blog</title>
+
+    <link rel="icon" href="../Pictures/headerimg.ico" type="image/x-icon">
+
+    <style>
+        /* 1. 全体のトーン（メインページと統一） */
+        body {
+            margin: 0; padding: 0;
+            font-family: serif;
+            line-height: 1.8;
+            color: #1a1a1a;
+            background-color: #fcfcfc;
+        }
+
+        /* 2. 固定ヘッダー（トップへ戻るボタン） */
+        header {
+            position: fixed; top: 0; left: 0; width: 100%;
+            background: #000; padding: 15px 0;
+            text-align: center; z-index: 1000;
+        }
+        header a {
+            color: #fff; text-decoration: none;
+            font-weight: bold; letter-spacing: 0.1em;
+            text-transform: uppercase;
+        }
+
+        /* 3. 記事本文エリア */
+        main {
+            max-width: 680px; /* 集中して読める幅 */
+            margin: 100px auto 80px;
+            padding: 0 25px;
+        }
+
+        /* 4. 記事のタイトルまわり */
+        .post-header { margin-bottom: 40px; }
+        .post-date { font-size: 0.9rem; color: #888; }
+        h1 { font-size: 1.8rem; margin: 10px 0; line-height: 1.3; }
+        .tag { font-size: 0.8rem; background: #eee; padding: 2px 8px; border-radius: 3px; }
+
+        /* 5. 本文内の装飾（シンプルに） */
+        p { margin-bottom: 1.5em; }
+        h2 { 
+            font-size: 1.4rem; border-left: 4px solid #000; 
+            padding-left: 15px; margin-top: 50px; 
+        }
+        blockquote { 
+            border-left: 2px solid #ccc; color: #666; 
+            margin: 20px 0; padding-left: 20px; font-style: italic;
+        }
+        img { max-width: 100%; height: auto; margin: 20px 0; border: 1px solid #eee; }
+
+        /* 6. 記事下のナビ */
+        footer {
+            border-top: 1px solid #eee;
+            padding-top: 30px;
+            text-align: center;
+        }
+        .back-to-top { text-decoration: none; color: #888; font-size: 0.9rem; }
+        .back-to-top:hover { color: #000; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <a href="../index.html">生しょうが's blog</a>
+    </header>
+
+    <main>
+        <article>
+            <div class="post-header">
+                <span class="post-date">2026.03.15</span>
+                <span class="tag">Inspection</span> <h1>ドラレコ動画転載は伸びるのか</h1>
+            </div>
+
+            <section class="post-content">
+                <p>うーん、あまりにも新動画の案が思いつかない。<br>そんなときふとドラレコ動画の転載が脳裏に浮かんだ。</p>
+
+                <h2>実際どうなのか</h2>
+                <p>実際に検証してみよう。<br>ああいう動画は短時間で大量に量産できる。
+<br>勉強の合間合間で作っていこう。<br>その前にみんな気になるのは法的な問題だろう。<br>こういうときはGemini君だ。</p>
+
+                <blockquote>
+Gemini の回答<br>
+YouTube上のドラレコ動画（他人が投稿したもの）を、許可なく自分のチャンネルやSNSに転載する場合、前述したプライバシー等の問題に加え、**「著作権法」および「YouTubeの規約」**に関する深刻なリスクが発生します。<br>
+
+「他人の動画を勝手に使う」ことによる具体的なリスクは以下の通りです。<br>
+1. 著作権侵害（民事・刑事）<br>
+ドラレコ映像は「単なる記録」に見えますが、撮影者が場所を選び、編集し、テロップや音声を加えている場合、**「著作物」**として保護される可能性が非常に高いです。<br>
+
+著作権侵害の責任: 権利者から動画の削除、広告収益の返還、あるいは損害賠償を請求される可能性があります。<br>
+
+刑事罰: 悪質な場合は「10年以下の懲役」や「1000万円以下の罰金」が科される可能性もあります。<br>
+
+2. YouTubeアカウントへのペナルティ<br>
+YouTubeは無断転載に対して非常に厳しいシステム（Content IDなど）を持っています。<br>
+
+著作権ストライク（警告）: 権利者から削除要請（テイクダウン）を受けると、アカウントに「警告」がつきます。<br>
+
+アカウントの停止: 警告が3回積み重なると、チャンネルが永久に停止され、新しいチャンネルを作成することも禁止されます。<br>
+
+収益化の剥奪: 他人のコンテンツを再利用していると見なされると、「再利用されたコンテンツ」という規約違反により、チャンネル全体の収益化が停止されるリスクがあります。<br>
+
+3. 「引用」として認められるハードルは高い<br>
+「引用なら大丈夫」と考える人もいますが、<br>日本の法律やYouTubeのガイドラインにおいて「引用」が成立するには厳しい条件があります。<br>
+
+主従関係: 自分の解説や批評がメイン（主）であり、転載動画がその補足（従）であること。<br>
+
+必然性: その動画を使わなければ説明できない理由があること。<br>
+
+改変の禁止: 勝手にBGMをつけたり、テロップを消したりすることは「同一性保持権」の侵害になります。<br>
+
+※単に「まとめ動画」として繋げたり、少しコメントを入れたりする程度では、多くの場合「無断転載」と判断されます。<br>
+
+4. 晒し系チャンネル特有のリスク<br>
+ドラレコ動画を「DQN運転」などとして晒す場合、動画の元々の権利者（撮影者）だけでなく、<br>映っている当事者からも訴えられるダブルのリスクがあります。<br>
+元動画の投稿者: 「俺の動画を勝手に金稼ぎに使うな」と著作権で訴える。<br>
+
+動画に映っている人: 「プライバシー侵害」「名誉毀損」で訴える。<br>
+
+安全に利用するための対策<br>
+もしドラレコ動画を扱いたい場合は、以下の対応が必須です。<br>
+
+必ず許可を取る: Twitter（X）やYouTubeのコメント欄から連絡し、使用許可（ライセンス）を得る。<br>
+
+公式の提供窓口を利用する: 一部のドラレコまとめチャンネルは、ユーザーから投稿を募集しています。<br>そのような正規のルートで入手した動画以外は使わないのが賢明です。<br>
+
+引用のルールを徹底する: 専門家の解説を加えるなど、独自の付加価値をメインにし、出典を明記する（ただし、これでも権利者が「NO」と言えばYouTube上では削除対象になります）。<br>
+
+結論として、YouTube上の他人のドラレコ動画を無許可で転載することは、<br>アカウント削除や法的トラブルに直結する非常にハイリスクな行為です。
+                </blockquote>
+
+                <p>だそうだ。そら無断転載なんてそんなもんだ。</p>
+
+<h2>結果</h2>
+<p>長ったらしく何か書いていてもだめだろう。<br>早速結果だ。投稿本数は7本。</p>
+<div style="text-align: center; margin: 30px 0;">
+    <img src="../Pictures/結果発表ー.png" alt="画像の説明" style="max-width: 100%; height: auto; border-radius: 8px; border: 1px solid #eee;">
+    <p style="font-size: 0.8rem; color: #888; margin-top: 10px;">▲ 結果</p>
+</div>
+<p>再生数・高評価率は結構いい感じだ。<br>登録者は4増加だ。再生数のわりに少ない。<br>収益の推定額は収益化していないから推定の収益になるが、<br>4000~2000円程度になるそうだ。<br>こんな動画だけ挙げていて収益化できるかは知らないが。<br>登録者は残念なことに4人しか増えなかった。<br>次の動画を期待させておけばどうにかなるかもしれない。
+            </section>
+
+        </article>
+        
+        <footer>
+            <a href="../index.html" class="back-to-top">← Go back to Archive</a>
+            <p style="margin-top: 40px; font-size: 0.8rem; color: #888;">
+                Copyright &copy; 2026 生しょうが's blog
+            </p>
+        </footer>
+    </main>
+
+</body>
+</html>
